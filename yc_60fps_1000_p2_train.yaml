@@ -1,0 +1,20 @@
+batch: -1
+cache: disk
+data: yc_60fps_1000_data.yaml
+exist_ok: True
+freeze: 0
+half: True
+imgsz: 1920
+lr0: 0.0001
+model: models/yc_60fps_1000/p1/weights/best.pt
+mode: train
+name: p2
+patience: 10
+plots: True
+project: models/yc_60fps_1000
+task: detect
+verbose: False
+resume: False
+classes: [0]
+single_cls: True
+save_period: -1 # last.pt is enough

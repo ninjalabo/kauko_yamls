@@ -1,0 +1,15 @@
+batch: 16
+max_det: 1
+classes: [0]
+conf: 0.89
+exist_ok: True
+half: True
+imgsz: 1920
+model: models/yc_60fps_1000/p2/weights/best.pt
+mode: predict
+plots: True
+save: False
+save_txt: True
+source: yc_30fps_unlabeled
+task: detect
+verbose: False
