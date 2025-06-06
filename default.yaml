@@ -1,0 +1,14 @@
+task: detect
+mode: train
+model: runs/detect/train/weights/best.pt
+patience: 10
+batch: -1
+cache: disk
+classes: [0]
+data: data/data.yaml
+half: True
+#imgsz: 1920
+plots: True
+exist_ok: True
+save_txt: True
+save_conf: True
