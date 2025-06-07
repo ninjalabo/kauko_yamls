@@ -1,0 +1,5 @@
+path: data 
+train: train
+val: val
+nc: 1
+names: ['ball']
